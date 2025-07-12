@@ -2,3 +2,4 @@
 telethon
 ffmpeg-python
 yt-dlp
+flask
