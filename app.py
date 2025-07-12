@@ -17,6 +17,6 @@ def start_bot():
     client.start()
     client.run_until_disconnected()
 
-if name == '__main__':
+if __name__ == '__main__':
     threading.Thread(target=start_bot).start()
     app.run(host='0.0.0.0', port=10000)
