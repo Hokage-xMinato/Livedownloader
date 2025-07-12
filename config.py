@@ -1,0 +1,6 @@
+# config.py
+
+API_ID = 22776206  # 🔁 Replace with your actual API ID
+API_HASH = 'ada968d0b6551a6c766b864ecfeffcd5'  # 🔁 Replace with your API HASH
+SESSION_STRING = '1BVtsOKEBu1VwJ_bwmmBSPq18-eh7oz2WCMvzpmGQFCtn14N2UTNKYgXYEbI0q--JgaM_gPze4s8mznzFLTUtqG9K-6NEvIiHbMAoVWgvK_9gERhjxZmoXP2jMHyLYmLMWEZG7RaDNzAoUWsdnHS_9HLuAGt9WYn1KY9FhLa7HX12i30ML9TZipmUH6tbLR2k3O6_ivMSURys7-H48IRK8cl2m4q8HQ0L3g_krXGLKnOBAcrErp91qHas7EeUTnPqGAAxXNizTbzSCBBHOKXXxLjnf7n3Li24D0CXCKECTPlyzkkfBVURCUPYcOZsZMlhp_27EZbhokhb9oqSJJQU1-lL0LcTWQ8='
+OWNER_PASSWORD = 'lovelychatgpt1000'  # 🔒 Use a strong password!
