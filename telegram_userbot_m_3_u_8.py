@@ -185,9 +185,3 @@ async def worker():
             running_tasks.pop(user_id, None)
 
 
-if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    loop.create_task(worker())
-    print("Bot started!")
-    client.start()
-    client.run_until_disconnected()
