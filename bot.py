@@ -77,7 +77,7 @@ async def process_download(event):
     await event.reply("🎥 Select video quality:", buttons=buttons)
 
 
-@client.on(events.CallbackQuery(pattern=b"q\|(live|recorded)\|(.+)\|(\d+)"))
+@client.on(events.CallbackQuery(pattern=b"q\\|(live|recorded)\\|(.+)\\|(\\d+)"))
 async def handle_quality_selection(event):
     await event.answer()
     cmd, real_url, index = event.pattern_match.groups()
